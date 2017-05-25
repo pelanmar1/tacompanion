@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tacompanion</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_logIn">Log In</string>
+    <string name="et_username">Username</string>
+    <string name="et_password">Password</string>
+    <string name="et_name">Name</string>
+    <string name="et_rptPassword">Repeat password</string>
+    <string name="btn_updateProfile">Update</string>
+    <string name="btn_changePassword">Change password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_cat_location">Location Preferences</string>
+    <string name="outdoor_pref_key">outdoorPrefKey</string>
+    <string name="outdoor_pref_title">Avoid outdoor tables</string>
+    <string name="pref_cat_assistance">Assistance</string>
+    <string name="high_chair_pref_key">bbyHighChair</string>
+    <string name="high_chair_pref_summ">Do you require a high chair for your babies?</string>
+    <string name="high_chair_pref_title">Baby high chair</string>
+    <string name="wheel_chair_pref_key">wheelChair</string>
+    <string name="wheel_chair_pref_summ">Do you happen to use a wheelchair?</string>
+    <string name="wheel_chair_pref_title">Wheelchair</string>
+    <string name="music_pref_key">musicPrefKey</string>
+    <string name="music_pref_title">Avoid music and speakers</string>
+    <string name="tv_pref_key">tvPrefKey</string>
+    <string name="tv_pref_title">Seat near a TV</string>
+    <string name="pref_menu_title">Preferences</string>
+    <string name="edit_prof_menu_title">Edit Profile</string>
+</resources>

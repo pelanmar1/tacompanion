@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cat_location" >
+        <CheckBoxPreference
+            android:key="@string/outdoor_pref_key"
+            android:title="@string/outdoor_pref_title" />
+        <CheckBoxPreference
+            android:key="@string/music_pref_key"
+            android:title="@string/music_pref_title" />
+        <CheckBoxPreference
+            android:key="@string/tv_pref_key"
+            android:title="@string/tv_pref_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_cat_assistance" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/high_chair_pref_key"
+            android:summary="@string/high_chair_pref_summ"
+            android:title="@string/high_chair_pref_title" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/wheel_chair_pref_key"
+            android:summary="@string/wheel_chair_pref_summ"
+            android:title="@string/wheel_chair_pref_title" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

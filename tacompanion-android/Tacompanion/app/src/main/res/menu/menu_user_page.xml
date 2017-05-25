@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_edit_prof"
+        android:icon="@drawable/ic_person_outline_white_24dp"
+        app:showAsAction="always"
+        android:title="@string/edit_prof_menu_title">
+    </item>
+    <item
+        android:id="@+id/menu_go_pref"
+        android:icon="@drawable/ic_settings_white_24dp"
+        app:showAsAction="always"
+        android:title="@string/pref_menu_title">
+    </item>
+</menu>

@@ -1,0 +1,60 @@
+<LinearLayout
+    tools:context=".fragments.UserProfileFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/TpnAct1"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:text="Bienvenido"/>
+<de.hdodenhof.circleimageview.CircleImageView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_image"
+    android:layout_width="125dp"
+    android:layout_height="125dp"
+    android:src="@drawable/tpn_logo"
+    app:civ_border_width="2dp"
+    app:civ_border_color="@color/colorWhite"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_sessionStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="At the moment you don't have an active session on any restaurant. Swipe right to start a new session!"/>
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        style="@style/AVLoadingIndicatorView"
+        android:visibility="visible"
+        app:indicatorName="BallPulseIndicator"
+        app:indicatorColor="@color/tpn_pink"
+        />
+
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+
+</LinearLayout>
+
+
